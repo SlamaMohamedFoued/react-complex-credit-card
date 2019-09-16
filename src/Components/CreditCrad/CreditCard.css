@@ -1,0 +1,99 @@
+.App {
+  color: white;
+}
+
+.container {
+  background-color: lightblue;
+  width: 420px;
+  height: 260px;
+  border-radius: 22px;
+  margin-top: 250px;
+  line-height: 25%;
+  background-image: url(./earth.jpg);
+  background-size: cover;
+}
+
+.allInfos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 400px;
+}
+
+.PaymentCompanies {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  float: right;
+}
+
+.block {
+  padding: 10px;
+}
+
+img {
+  padding-bottom: 5px;
+}
+
+.puce {
+  display: block;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  min-width: 240px;
+  justify-content: flex-end;
+}
+
+.date {
+}
+
+h2 {
+  text-align: right;
+  padding: 15px 15px;
+  margin-top: 30px;
+}
+
+h3 {
+  letter-spacing: 3px;
+}
+
+.puce {
+  padding: 0 30px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 250px 20px 20px;
+  padding: 10px;
+}
+
+.input {
+  height: 30px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.inputName {
+  color: black;
+  font-weight: 600;
+}
+
+.inputBox {
+  display: flex;
+}
+
+.inputBox > p {
+  min-width: 100px;
+}
